@@ -1,1 +1,1 @@
-plugin_newsletter:plugin_wishlists:lib_productlist:app_storefront_base
+custom_pippo:plugin_newsletter:plugin_wishlists:lib_productlist:app_storefront_base
