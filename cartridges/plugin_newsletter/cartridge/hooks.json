@@ -2,7 +2,7 @@
     "hooks": [
         {
             "name": "app.mailingList.subscribe",
-            "script": "./cartridge/experience/hooks.js"
+            "script": "./cartridge/scripts/hooks/hooks.js"
         }
     ]
 }
