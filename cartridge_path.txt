@@ -1,1 +1,1 @@
-plugin_wishlists:lib_productlist:app_storefront_base
+plugin_newsletter:plugin_wishlists:lib_productlist:app_storefront_base
