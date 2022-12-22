@@ -29,6 +29,7 @@ function execute() {
         }
 
     }
+    searchQuery.close();
     return PIPELET_NEXT;
 }
 

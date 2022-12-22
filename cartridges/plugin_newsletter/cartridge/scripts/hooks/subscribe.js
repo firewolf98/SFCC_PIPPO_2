@@ -14,7 +14,7 @@ function subscribe(email) {
 
     var keyValue = email.toLowerCase();
 
-    var searchQuery = CustomObjectMgr.queryCustomObjects('Newsletter_Forms', "custom.email = {0}", email.toLowerCase());
+    var searchQuery = CustomObjectMgr.queryCustomObjects('Newsletter_Forms', "custom.email = {0}", keyValue);
     
     if (searchQuery.hasNext()) {
         return;

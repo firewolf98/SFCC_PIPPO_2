@@ -2,6 +2,7 @@
 
 
 var Svc = require('dw/svc');
+var Site = require('dw.system.Site');
 
 /**
  * Create AVS service
@@ -34,12 +35,6 @@ function subscribe() {
 
         svc.addHeader('Username', username);
         svc.addHeader('Password', password);
-
-        var requestBody = {    
-          'Payload': {
-          'Email': email
-          }                
-        };
 
     },
         /**
